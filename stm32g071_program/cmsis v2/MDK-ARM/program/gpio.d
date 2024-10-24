@@ -1,0 +1,35 @@
+program\gpio.o: ../Src/gpio.c
+program\gpio.o: ../Inc/gpio.h
+program\gpio.o: ../Inc/main.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h
+program\gpio.o: ../Inc/stm32g0xx_hal_conf.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h
+program\gpio.o: ../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h
+program\gpio.o: ../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h
+program\gpio.o: ../Drivers/CMSIS/Include/core_cm0plus.h
+program\gpio.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+program\gpio.o: ../Drivers/CMSIS/Include/cmsis_version.h
+program\gpio.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+program\gpio.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+program\gpio.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+program\gpio.o: ../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+program\gpio.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h
+program\gpio.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h

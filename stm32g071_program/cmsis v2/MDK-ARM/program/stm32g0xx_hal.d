@@ -1,0 +1,33 @@
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h
+program\stm32g0xx_hal.o: ../Inc/stm32g0xx_hal_conf.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h
+program\stm32g0xx_hal.o: ../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h
+program\stm32g0xx_hal.o: ../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h
+program\stm32g0xx_hal.o: ../Drivers/CMSIS/Include/core_cm0plus.h
+program\stm32g0xx_hal.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+program\stm32g0xx_hal.o: ../Drivers/CMSIS/Include/cmsis_version.h
+program\stm32g0xx_hal.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+program\stm32g0xx_hal.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+program\stm32g0xx_hal.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+program\stm32g0xx_hal.o: ../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+program\stm32g0xx_hal.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h
+program\stm32g0xx_hal.o: ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h
