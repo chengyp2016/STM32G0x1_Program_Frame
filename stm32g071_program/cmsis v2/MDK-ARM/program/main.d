@@ -44,3 +44,7 @@ program\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 program\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 program\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 program\main.o: ../Inc/gpio.h
+program\main.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+program\main.o: ..\easylogger\inc\elog.h
+program\main.o: ..\easylogger\inc\elog_cfg.h
+program\main.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

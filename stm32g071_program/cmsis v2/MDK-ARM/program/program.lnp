@@ -33,6 +33,10 @@
 "program\cmsis_os2.o"
 "program\heap_4.o"
 "program\port.o"
+"program\elog.o"
+"program\elog_utils.o"
+"program\elog_port.o"
+"program\macro_config.o"
 --strict --scatter "program\program.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
