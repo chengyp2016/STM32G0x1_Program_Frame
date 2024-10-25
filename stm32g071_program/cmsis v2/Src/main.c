@@ -4,6 +4,8 @@
 
 #include "stdio.h"
 #include "elog.h"
+#include "cm_backtrace.h"
+#include "macro_config.h"
 
 void SystemClock_Config(void);
 void MX_FREERTOS_Init(void);
@@ -23,6 +25,10 @@ int main(void)
     elog_set_fmt(ELOG_LVL_VERBOSE, ELOG_FMT_ALL & ~ELOG_FMT_FUNC);
     
     elog_start();
+    
+    printf("Keil CmBacktrace!\r\n");
+    cm_backtrace_init("BYE1300_V1_2_092401", HARDWARE_VERSION, SOFTWARE_VERSION);
+    
     osKernelInitialize();
     MX_FREERTOS_Init();
     osKernelStart();

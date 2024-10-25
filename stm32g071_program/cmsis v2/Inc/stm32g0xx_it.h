@@ -47,7 +47,7 @@
 
 /* Exported functions prototypes ---------------------------------------------*/
 void NMI_Handler(void);
-void HardFault_Handler(void);
+//void HardFault_Handler(void);
 void TIM7_LPTIM2_IRQHandler(void);
 /* USER CODE BEGIN EFP */
 

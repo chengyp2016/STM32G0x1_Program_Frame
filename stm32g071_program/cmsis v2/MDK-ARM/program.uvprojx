@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>CMSIS_device_header=&lt;stm32g0xx.h&gt;,USE_HAL_DRIVER,STM32G071xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;../Drivers/STM32G0xx_HAL_Driver/Inc;../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0;../Drivers/CMSIS/Device/ST/STM32G0xx/Include;../Drivers/CMSIS/Include;..\easylogger\inc;..\easylogger\port;..\easylogger\src</IncludePath>
+              <IncludePath>../Inc;../Drivers/STM32G0xx_HAL_Driver/Inc;../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0;../Drivers/CMSIS/Device/ST/STM32G0xx/Include;../Drivers/CMSIS/Include;..\easylogger\inc;..\easylogger\port;..\easylogger\src;..\cm_backtrace;..\sys_kerbel;..\cm_backtrace\Languages\en-US</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -592,22 +592,37 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>CmBacktrace</GroupName>
+          <Files>
+            <File>
+              <FileName>cmb_fault.S</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\cm_backtrace\fault_handler\keil\cmb_fault.S</FilePath>
+            </File>
+            <File>
+              <FileName>cm_backtrace.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\cm_backtrace\cm_backtrace.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>sys_kernel</GroupName>
           <Files>
             <File>
               <FileName>macro_config.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\sys\macro_config.c</FilePath>
+              <FilePath>..\sys_kerbel\macro_config.c</FilePath>
             </File>
             <File>
               <FileName>macro_config.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\sys\macro_config.h</FilePath>
+              <FilePath>..\sys_kerbel\macro_config.h</FilePath>
             </File>
             <File>
               <FileName>sys_type.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\sys\sys_type.h</FilePath>
+              <FilePath>..\sys_kerbel\sys_type.h</FilePath>
             </File>
           </Files>
         </Group>

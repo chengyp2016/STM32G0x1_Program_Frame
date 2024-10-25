@@ -48,3 +48,9 @@ program\main.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 program\main.o: ..\easylogger\inc\elog.h
 program\main.o: ..\easylogger\inc\elog_cfg.h
 program\main.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+program\main.o: ..\cm_backtrace\cm_backtrace.h
+program\main.o: ..\cm_backtrace\cmb_def.h
+program\main.o: ..\cm_backtrace\cmb_cfg.h
+program\main.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+program\main.o: ..\sys_kerbel\macro_config.h
+program\main.o: ..\sys_kerbel\sys_type.h

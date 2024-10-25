@@ -36,6 +36,8 @@
 "program\elog.o"
 "program\elog_utils.o"
 "program\elog_port.o"
+"program\cmb_fault.o"
+"program\cm_backtrace.o"
 "program\macro_config.o"
 --strict --scatter "program\program.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols

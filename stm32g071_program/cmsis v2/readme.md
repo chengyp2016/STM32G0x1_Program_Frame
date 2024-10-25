@@ -9,3 +9,8 @@ github路径 https://github.com/armink/EasyLogger?tab=readme-ov-file
 注意：elog_port_get_t_info、elog_port_get_p_info、elog_port_get_time 被强制写为空
     日志输出接口 elog_port_output 尚未绑定
     且该文件为第一版文件 因此 内部的很多参数 都没有进行调整和优化
+
+2、添加cm_backtrace。
+github路径 https://github.com/armink/EasyLogger/blob/master/docs/zh/port/kernel.md
+注意要在 cmb_cfg.h 文件夹内进行 OS等配置
+如何配置使用可以参考这个文献 https://blog.csdn.net/freedompoi/article/details/122039939
